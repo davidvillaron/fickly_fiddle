@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    font-family: "baskerville-urw";
+    
+}
+/* aligns our 2nd flex item to the right */
+.head-wrap-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+/* centers our 2nd flex item with the 1st */
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       
+}
+
+.img-logo {
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 35px;
+}
+
+/* removes list bullet points */
+nav ul {
+   list-style-type: none;
+}
+
+/* Horizontally aligns and spaces nav links */
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    
+       
+}
+/* styles our nav links */
+nav a {
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-left: 20px;
+}
+
+/* page title */
+.head-title {
+    font-size: medium;
+    letter-spacing: 2px;
+    color: #64aa85;
+    margin: -18px;
+}
+
+
+/* Contains image subtext */
+.image-wrap  {
+    display: inline-flex;
+}
+
+/* <p> subtext from start to end */
+figcaption {
+    width: 0;
+    min-width: 100%;
+    color: rgb(147, 139, 139);
+    
+}
+h2 {
+    color: #64aa85;
+}
+h3 {
+    line-height: 1.5;
+    color: rgb(85, 70, 70);
+    width: 100%
+    
+}
+/* relative to push it down a bit */
+.house-plants {
+    position: relative;
+    top: 200px;
+    color: #64aa85;
+}
+
+.paragraph-section {
+    margin: 2px 300px;
+}
